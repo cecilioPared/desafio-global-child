@@ -14,6 +14,10 @@ Una vez configuradas las variables de entorno se debe ejecutar el siguiente coma
 ```
 npm run dev
 ```
-Para probar el formulario se debe ingresar al sgte enlace:
+Para probar el formulario de info del sistema se debe ingresar al sgte enlace:
 
-visit http://localhost:8080/
+visit http://localhost:8080/info
+
+Para probar el endpoint de calculo se debe ingresar al sgte enlace y pasar por query param la cantidad opcionalmente:
+
+visit http://localhost:8080/api/random?cant=5000
